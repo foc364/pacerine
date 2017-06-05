@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace pacerini\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
