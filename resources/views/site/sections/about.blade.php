@@ -2,80 +2,42 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h1 id="about" class="title text-center">Sobre <span>Bruno Pacerini</span></h1>
-        <p class="lead text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta officia, aspernatur.</p>
+        <h1 id="about" class="title text-center">Sobre <span>Bruno Pacerini Moreno</span></h1>
+        <p class="lead text-center">Arquiteto e Urbanista</p>
         <div class="space"></div>
         <div class="row">
           <div class="col-md-6">
-            <img src="resources/images/section-image-1.png" alt="">
+            <img src="resources/images/image1.jpg" alt="logo">
             <div class="space"></div>
           </div>
           <div class="col-md-6">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi adipisci illo, voluptatum ipsam fuga error commodi architecto, laudantium culpa tenetur at id, beatae placeat deserunt iure quas voluptas fugit eveniet.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo ducimus explicabo quibusdam temporibus deserunt doloremque pariatur ea, animi a. Delectus similique atque eligendi, enim vel reiciendis deleniti neque aliquid, sit?</p>
+            <p>
+            Graduado em Arquitetura e Urbanismo pela Universidade Presbiteriana Mackenzie e pós graduado pela Universitat Politécnica de la Catalunya em Tecnologia da Edificação venho desenvolvendo e executando projetos ligados à construção civil de pequeno, médio e grande porte, que incluem projetos de edifícios residenciais, comerciais, institucionais, agências bancarias e residência uni-familiares. Todos com o auxílio de instrumentos de representação gráfica como AutoCad 2D, 3D, Photoshop, 3D Studio, Revit, o pacote Office em geral entre outros.
+            </p>
+          
             <ul class="list-unstyled">
-              <li><i class="fa fa-caret-right pr-10 text-colored"></i> Lorem ipsum dolor sit amet</li>
-              <li><i class="fa fa-caret-right pr-10 text-colored"></i> Reiciendis deleniti neque aliquid</li>
-              <li><i class="fa fa-caret-right pr-10 text-colored"></i> Ipsam fuga error commodi</li>
-              <li><i class="fa fa-caret-right pr-10 text-colored"></i> Lorem ipsum dolor sit amet</li>
-              <li><i class="fa fa-caret-right pr-10 text-colored"></i> Dignissimos molestiae necessitatibus</li>
+              <li><i class="fa fa-caret-right pr-10 text-colored"></i> Graduação Universidade Presbiteriana Mackenzie</li>
+              <li><i class="fa fa-caret-right pr-10 text-colored"></i> Pós-graduação pela Universitat Politécnica de la Catalunya</li>
+              <li><i class="fa fa-caret-right pr-10 text-colored"></i> Inglês Fluente</li>
             </ul>
           </div>
         </div>
         <div class="space"></div>
-        <h2>Becessitatibus quae beatae possimus ullam</h2>
+      
         <div class="row">
           <div class="col-md-6">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi adipisci illo, voluptatum ipsam fuga error commodi architecto, laudantium culpa tenetur at id, beatae placeat deserunt iure quas voluptas fugit eveniet.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo ducimus explicabo quibusdam temporibus deserunt doloremque pariatur ea, animi a. Delectus similique atque eligendi, enim vel reiciendis deleniti neque aliquid, sit?</p>
-            <p>Vitae dolores quam magnam accusantium nam, voluptatibus expedita delectus, dolorum odio magni ut nemo nihil ex earum pariatur molestias velit eveniet, facere autem saepe aut. Ut minima itaque porro facere. Cumque vitae autem, dignissimos molestiae necessitatibus culpa aliquam deleniti soluta sunt voluptatibus tenetur, unde dolorem eligendi doloribus quibusdam facere totam. Possimus atque deserunt numquam aliquam magnam, facilis officiis illo alias ipsa voluptas laborum, praesentium eveniet nobis velit voluptatem odio eligendi, corporis et iste distinctio! Repellendus, id, ad.</p>
+            <h2>Experiências Profissionais</h2>
+            <p>
+            Essas experiências profissionais foram aplicadas através de oportunidades que tive junto ao Unibanco, Caixa Economica Federal, Banco do Brasil, rede Accor de hotéis, a Fundação Patrimônio Histórico da Energia e Saneamento que engloba (Sabesp, Cesp, Eletropaulo, Comgás), a alguns escritórios de arquitetura e clientes particulares. Sempre projetando e fiscalizando a execução de empreendimentos, que me proporcionaram um contato direto com toda infra-estrutura básica presente em um ambiente que visa atender uma grande demanda.
+            </p>
+          
           </div>
+
           <div class="col-md-6">
-            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-              <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingOne">
-                  <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Collapsible Group Item #1
-                    </a>
-                  </h4>
-                </div>
-                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                  <div class="panel-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher.
-                  </div>
-                </div>
-              </div>
-              <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingTwo">
-                  <h4 class="panel-title">
-                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Collapsible Group Item #2
-                    </a>
-                  </h4>
-                </div>
-                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                  <div class="panel-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-                  </div>
-                </div>
-              </div>
-              <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingThree">
-                  <h4 class="panel-title">
-                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      Collapsible Group Item #3
-                    </a>
-                  </h4>
-                </div>
-                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                  <div class="panel-body">
-                    Richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic.
-                  </div>
-                </div>
-              </div>
-            </div>
+            <h2>Conclusão</h2>
+            <p>Finalmente tenho como meta ampliar meus conhecimentos junto à construção civil, tanto no âmbito teórico com a execução de novos cursos e futuramente um mestrado em tecnologia da edificação, quanto através de mais experiências práticas de fiscalização e organização de empreendimentos, com o objetivo de me tornar cada vez mais apto à realização e execução de um bom projeto arquitetonico.</p>
           </div>
+
         </div>
       </div>
     </div>

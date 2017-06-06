@@ -2,7 +2,7 @@
       <div class="container">
         <h1 class="text-center title" id="portfolio">Portfolio</h1>
         <div class="separator"></div>
-        <p class="lead text-center">Lorem ipsum dolor sit amet laudantium molestias similique.<br> Quisquam incidunt ut laboriosam.</p>
+        <p class="lead text-center">Alguns dos trabalhos realizados.</p>
         <br>      
         <div class="row object-non-visible" data-animation-effect="fadeIn">
           <div class="col-md-12">

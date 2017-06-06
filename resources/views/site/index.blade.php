@@ -31,6 +31,10 @@
 
 		<!-- Custom css --> 
 		<link href="resources/css/custom.css" rel="stylesheet">
+
+		<!-- Carrosel clientes --> 
+		<link href="resources/css/slick.css" rel="stylesheet">        
+
 	</head>
 
 	<body class="no-trans">
@@ -70,6 +74,10 @@
 
 		<!-- Custom Scripts -->
 		<script type="text/javascript" src="resources/js/custom.js"></script>
+
+		<!-- Carrosel clientes --> 
+		<script type="text/javascript" src="resources/js/slick.min.js"></script>
+
 
 	</body>
 </html>
