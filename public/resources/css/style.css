@@ -716,3 +716,9 @@ textarea {
 	-webkit-transform: scale(1);
 	transform: scale(1);
 }
+
+.align-center {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}

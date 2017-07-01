@@ -90,6 +90,9 @@
 					transitionDuration: '0.6s',
 					filter: "*"
 				});
+
+				$container.isotope({ filter: '.bank-agencies' });
+				
 				// filter items on button click
 				$('.filters').on( 'click', 'ul.nav li a', function() {
 					var filterValue = $(this).attr('data-filter');
