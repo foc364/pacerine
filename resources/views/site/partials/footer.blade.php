@@ -3,7 +3,7 @@
 
 	<div class="footer section">
 		<div class="container">
-			<h1 class="title text-center" id="contact">Contato</h1>
+			<h1 class="title text-center" id="contact">@lang('text.contact')</h1>
 			<div class="space"></div>
 			<div class="row">
 				<div class="col-sm-6">
@@ -16,13 +16,6 @@
 						</ul>
 						<ul class="social-links">
 							<li class="facebook"><a target="_blank" href="https://www.facebook.com/pages/HtmlCoder/714570988650168"><i class="fa fa-facebook"></i></a></li>
-							<li class="twitter"><a target="_blank" href="https://twitter.com/HtmlcoderMe"><i class="fa fa-twitter"></i></a></li>
-							<li class="googleplus"><a target="_blank" href="http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
-							<li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>
-							<li class="linkedin"><a target="_blank" href="http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
-							<li class="youtube"><a target="_blank" href="http://www.youtube.com"><i class="fa fa-youtube"></i></a></li>
-							<li class="flickr"><a target="_blank" href="http://www.flickr.com"><i class="fa fa-flickr"></i></a></li>
-							<li class="pinterest"><a target="_blank" href="http://www.pinterest.com"><i class="fa fa-pinterest"></i></a></li>
 						</ul>
 					</div>
 				</div>
@@ -30,8 +23,8 @@
 					<div class="footer-content">
 						<form role="form" id="footer-form">
 							<div class="form-group has-feedback">
-								<label class="sr-only" for="name2">Nome</label>
-								<input type="text" class="form-control" id="name2" placeholder="Nome" name="name2" required>
+								<label class="sr-only" for="name2">@lang('text.name')</label>
+								<input type="text" class="form-control" id="name2" placeholder="@lang('text.name')" name="name2" required>
 								<i class="fa fa-user form-control-feedback"></i>
 							</div>
 							<div class="form-group has-feedback">
@@ -40,11 +33,11 @@
 								<i class="fa fa-envelope form-control-feedback"></i>
 							</div>
 							<div class="form-group has-feedback">
-								<label class="sr-only" for="message2">Mensagem</label>
-								<textarea class="form-control" rows="8" id="message2" placeholder="Mensagem" name="message2" required></textarea>
+								<label class="sr-only" for="message2">@lang('text.message')</label>
+								<textarea class="form-control" rows="8" id="message2" placeholder="@lang('text.message')" name="message2" required></textarea>
 								<i class="fa fa-pencil form-control-feedback"></i>
 							</div>
-							<input type="submit" value="Enviar" class="btn btn-default">
+							<input type="submit" value="@lang('text.send')" class="btn btn-default">
 						</form>
 					</div>
 				</div>

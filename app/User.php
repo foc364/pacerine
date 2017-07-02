@@ -1,6 +1,6 @@
 <?php
 
-namespace pacerini;
+namespace Pacerini;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;

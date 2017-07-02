@@ -11,6 +11,41 @@
 |
 */
 
-Route::get('/', function () {
-    return view('site.index');
+
+
+
+/////////////////**ADMIN**//////////////////////
+Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'middleware' => 'auth'], function () {
+    Route::resource('usuarios', 'UsersController');
+    Route::resource('consultorios', 'PlacesController');
+    Route::resource('convenios', 'HealthInsurancesController');
+    Route::resource('agendamentos', 'SchedulesController');
+    Route::resource('configuracoes', 'ConfigsController');
+    Route::resource('configuracoes-quem-somos', 'ConfigsAboutController');
+    Route::resource('configuracoes-orientacao', 'ConfigsOrientationController');
+    Route::resource('configuracoes-contato', 'ConfigsContactController');
+
+    Route::get('home', function () {
+        return view('admin.home');
+    })->name('home');
+});
+
+Route::group(['prefix' => 'admin'], function () {
+    Auth::routes();
+
+    Route::get('logout', [
+        'namespace' => 'Admin',
+        'uses' => 'Auth\LoginController@logout'
+    ]);
+});
+
+Route::get('/admin', function () {
+    return redirect()->route('login');
+})->name('admin');
+/////////////////**ADMIN**//////////////////////
+
+Route::get('/{language?}', function ($language = 'pt') {
+	dd(3);
+	App::setLocale($language);
+    return view('site.index')->with('language', $language);
 });

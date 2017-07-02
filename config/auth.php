@@ -67,7 +67,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => pacerini\User::class,
+            'model' => Pacerini\Models\User::class,
         ],
 
         // 'users' => [

@@ -1,6 +1,6 @@
 <?php
 
-namespace pacerini\Http\Middleware;
+namespace Pacerini\Http\Middleware;
 
 use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken as BaseVerifier;
 

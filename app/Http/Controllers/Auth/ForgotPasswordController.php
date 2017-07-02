@@ -1,8 +1,8 @@
 <?php
 
-namespace pacerini\Http\Controllers\Auth;
+namespace Pacerini\Http\Controllers\Auth;
 
-use pacerini\Http\Controllers\Controller;
+use Pacerini\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\SendsPasswordResetEmails;
 
 class ForgotPasswordController extends Controller

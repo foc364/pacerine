@@ -1,6 +1,6 @@
 <?php
 
-namespace pacerini\Exceptions;
+namespace Pacerini\Exceptions;
 
 use Exception;
 use Illuminate\Auth\AuthenticationException;

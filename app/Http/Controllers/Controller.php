@@ -1,6 +1,6 @@
 <?php
 
-namespace pacerini\Http\Controllers;
+namespace Pacerini\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;

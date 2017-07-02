@@ -19,7 +19,7 @@
             "database"
         ],
         "psr-4": {
-            "pacerini\\": "app/"
+            "Pacerini\\": "app/"
         }
     },
     "autoload-dev": {

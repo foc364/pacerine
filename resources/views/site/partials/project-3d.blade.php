@@ -6,7 +6,7 @@
                     <img src="resources/images/project-3d/3d{{ str_pad($i, 2, '0', STR_PAD_LEFT)  }}.jpg" alt="img">
                     <a class="overlay" data-toggle="modal" data-target="#project-3d-{{ $i }}">
                       <i class="fa fa-search-plus"></i>
-                      <span>Escritórios</span>
+                      <span>@lang('text.project_3d')</span>
                     </a>
                   </div>
              
@@ -16,8 +16,8 @@
                   <div class="modal-dialog modal-lg">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                        <h4 class="modal-title" id="project-3d-{{ $i }}-label">Escritórios</h4>
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">@lang('text.close')</span></button>
+                        <h4 class="modal-title" id="project-3d-{{ $i }}-label">@lang('text.project_3d')</h4>
                       </div>
                       <div class="modal-body">
                         <div class="row">
@@ -27,7 +27,7 @@
                         </div>
                       </div>
                       <div class="modal-footer">
-                        <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">@lang('text.close')</button>
                       </div>
                     </div>
                   </div>

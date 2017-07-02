@@ -2,8 +2,8 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h1 id="about" class="title text-center">Sobre <span>Bruno Pacerini Moreno</span></h1>
-        <p class="lead text-center">Arquiteto e Urbanista</p>
+        <h1 id="about" class="title text-center">@lang('text.about') <span>Bruno Pacerini Moreno</span></h1>
+        <p class="lead text-center">@lang('text.role')</p>
         <div class="space"></div>
         <div class="row">
           <div class="col-md-6">

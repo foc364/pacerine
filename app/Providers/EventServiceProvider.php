@@ -1,6 +1,6 @@
 <?php
 
-namespace pacerini\Providers;
+namespace Pacerini\Providers;
 
 use Illuminate\Support\Facades\Event;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
@@ -13,8 +13,8 @@ class EventServiceProvider extends ServiceProvider
      * @var array
      */
     protected $listen = [
-        'pacerini\Events\Event' => [
-            'pacerini\Listeners\EventListener',
+        'Pacerini\Events\Event' => [
+            'Pacerini\Listeners\EventListener',
         ],
     ];
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace pacerini\Http\Controllers\Auth;
+namespace Pacerini\Http\Controllers\Auth;
 
-use pacerini\User;
-use pacerini\Http\Controllers\Controller;
+use Pacerini\User;
+use Pacerini\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
 

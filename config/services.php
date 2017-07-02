@@ -30,7 +30,7 @@ return [
     ],
 
     'stripe' => [
-        'model' => pacerini\User::class,
+        'model' => Pacerini\User::class,
         'key' => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
     ],

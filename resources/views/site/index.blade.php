@@ -47,7 +47,7 @@
 
 		@include('site.sections.services')
 
-		@include('site.sections.portfolio')
+		@include('site.sections.projects')
 
 		@include('site.sections.clients')
 

@@ -1,10 +1,3 @@
-/* Theme Name:Worthy - Free Powerful Theme by HtmlCoder
-Author:HtmlCoder
-Author URI:http://www.htmlcoder.me
-Version:1.0.0
-Created:November 2014
-License:Creative Commons Attribution 3.0 License (https://creativecommons.org/licenses/by/3.0/)
-File Description:Main CSS file of the template */
 
 /* Typography
 ----------------------------------------------------------------------------- */
@@ -542,7 +535,7 @@ textarea {
 /* Logo, Site Name, Site Slogan
 ---------------------------------- */
 .logo {
-	margin: 10px 10px 10px 0;
+	margin: 5px 10px 10px 0;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -554,7 +547,7 @@ textarea {
 	float: left;
 }
 .site-name {
-	font-size: 36px;
+	font-size: 20px;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -721,4 +714,10 @@ textarea {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+}
+
+.flags {
+	width: 30px;
+	float: left;
+	margin-left: 9px;
 }

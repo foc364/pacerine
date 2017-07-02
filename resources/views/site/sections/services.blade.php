@@ -1,6 +1,6 @@
 <div class="section translucent-bg bg-image-1 blue">
   <div class="container object-non-visible" data-animation-effect="fadeIn">
-    <h1 id="services"  class="text-center title">Serviços</h1>
+    <h1 id="services"  class="text-center title">@lang('text.services')</h1>
     <div class="space"></div>
     <div class="row">
       <div class="col-sm-6">

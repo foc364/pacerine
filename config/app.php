@@ -77,7 +77,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'pt',
 
     /*
     |--------------------------------------------------------------------------
@@ -90,7 +90,7 @@ return [
     |
     */
 
-    'fallback_locale' => 'en',
+    'fallback_locale' => 'pt',
 
     /*
     |--------------------------------------------------------------------------
@@ -171,11 +171,11 @@ return [
         /*
          * Application Service Providers...
          */
-        pacerini\Providers\AppServiceProvider::class,
-        pacerini\Providers\AuthServiceProvider::class,
-        // pacerini\Providers\BroadcastServiceProvider::class,
-        pacerini\Providers\EventServiceProvider::class,
-        pacerini\Providers\RouteServiceProvider::class,
+        Pacerini\Providers\AppServiceProvider::class,
+        Pacerini\Providers\AuthServiceProvider::class,
+        // Pacerini\Providers\BroadcastServiceProvider::class,
+        Pacerini\Providers\EventServiceProvider::class,
+        Pacerini\Providers\RouteServiceProvider::class,
 
     ],
 
