@@ -176,6 +176,8 @@ return [
         // Pacerini\Providers\BroadcastServiceProvider::class,
         Pacerini\Providers\EventServiceProvider::class,
         Pacerini\Providers\RouteServiceProvider::class,
+        //Snowfire\Beautymail\BeautymailServiceProvider::class,
+
 
     ],
 

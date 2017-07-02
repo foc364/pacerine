@@ -81,3 +81,32 @@
 
 	</body>
 </html>
+
+<script>
+$(document).ready(function(){
+  
+  $('#form_contact').submit(function( event ) {
+  	alert(1);
+    var parameters = {
+      action: 'sendEmail',
+      form: $('#form_contact').serializeArray()
+    };
+
+    $.ajax({
+        type: 'POST',
+        url: 'site-requests',
+        data: parameters,
+        dataType: 'json',
+        success: function (data) {
+          $('#msg_email').html(data).fadeIn('slow');
+          $("#form_contact")[0].reset();
+        },
+        error: function (data) {
+          console.log('Error:', data);
+        }
+    });
+
+    event.preventDefault();
+  });
+});
+</script>

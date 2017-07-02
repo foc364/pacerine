@@ -14,14 +14,16 @@
 							<li><i class="fa fa-phone pr-10"></i> 55 11 5062 5842  </li>
 							<li><i class="fa fa-envelope-o pr-10"></i> bruno@pacerini.pe.hu</li>
 						</ul>
-						<ul class="social-links">
-							<li class="facebook"><a target="_blank" href="https://www.facebook.com/pages/HtmlCoder/714570988650168"><i class="fa fa-facebook"></i></a></li>
-						</ul>
 					</div>
 				</div>
+    
 				<div class="col-sm-6">
 					<div class="footer-content">
-						<form role="form" id="footer-form">
+						<div id="div_email">
+				       		<span id="msg_email"></span>
+			    		</div>
+			    		
+    				    <form method="post" action="{{ Request::route('site-requests') }}" id="form_contact">
 							<div class="form-group has-feedback">
 								<label class="sr-only" for="name2">@lang('text.name')</label>
 								<input type="text" class="form-control" id="name2" placeholder="@lang('text.name')" name="name2" required>

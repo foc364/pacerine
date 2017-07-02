@@ -1,4 +1,5 @@
 <?php
+use Illuminate\Http\Request;
 
 /*
 |--------------------------------------------------------------------------
@@ -44,8 +45,17 @@ Route::get('/admin', function () {
 })->name('admin');
 /////////////////**ADMIN**//////////////////////
 
+//////////////////**REQUISIÇÕES**///////////////
+Route::post('site-requests', function (Request $request) {
+    $app = app();
+    $controller = $app->make('Pacerini\Http\Controllers\Site\SiteController');
+
+    return $controller->callAction($request->action, [$request]);
+});
+//////////////////**REQUISIÇÕES**///////////////
+
+
 Route::get('/{language?}', function ($language = 'pt') {
-	dd(3);
 	App::setLocale($language);
     return view('site.index')->with('language', $language);
 });

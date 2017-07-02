@@ -1,12 +1,12 @@
 <?php
 
-namespace Larashop\Http\Controllers\admin;
+namespace Pacerini\Http\Controllers\admin;
 
 use Illuminate\Http\Request;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
-use Larashop\Http\Controllers\Controller;
-use Larashop\Models\Config;
-use Larashop\Models\Schedule;
+use Pacerini\Http\Controllers\Controller;
+use Pacerini\Models\Config;
+use Pacerini\Models\Schedule;
 
 class ConfigsController extends Controller
 {
