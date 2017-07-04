@@ -28,7 +28,7 @@
             <!-- header-left end -->
 
           </div>
-          <div class="col-md-2">
+          <div class="col-md-2 clearfix">
             <a href="{{ url('pt')}}"><img class="flags" src="resources/images/brazil.png"></a>
             <a href="{{ url('en')}}"><img class="flags" src="resources/images/eua.png"></a>
             <a href="{{ url('sp')}}"><img class="flags" src="resources/images/spain.png"></a>
