@@ -177,8 +177,7 @@ return [
         Pacerini\Providers\EventServiceProvider::class,
         Pacerini\Providers\RouteServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
-
-        //Snowfire\Beautymail\BeautymailServiceProvider::class,
+        Snowfire\Beautymail\BeautymailServiceProvider::class
 
 
     ],

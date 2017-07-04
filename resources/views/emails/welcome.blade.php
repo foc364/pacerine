@@ -5,7 +5,7 @@
 	@include('beautymail::templates.minty.contentStart')
 		<tr>
 			<td class="title">
-				Segue os dados do paciente para consulta.
+				Mensagem enviada pelo site Pacerini.
 			</td>
 		</tr>
 		<tr>
@@ -13,37 +13,18 @@
 		</tr>
 		<tr>
 			<td class="paragraph">
-				Nome - {{ $name }}
+			Nome - <?php print $name;?>
+			
 			</td>
 		</tr>
 		<tr>
 			<td class="paragraph">
-				Telefone Fixo - {{ $phone }}
+			E-mail - <?php print $email;?>
 			</td>
 		</tr>
 		<tr>
 			<td class="paragraph">
-				Celular - {{ $cellphone }}
-			</td>
-		</tr>
-		<tr>
-			<td class="paragraph">
-				WhatsApp - {{ $whatsapp }}
-			</td>
-		</tr>
-		<tr>
-			<td class="paragraph">
-				E-mail - {{ $email }}
-			</td>
-		</tr>
-		<tr>
-			<td class="paragraph">
-				Consultório - {{ $place }}
-			</td>
-		</tr>
-		<tr>
-			<td class="paragraph">
-				Convênio - {{ $health_insurance }}
+				Mensagem - <?php print $message2;?>
 			</td>
 		</tr>
 		

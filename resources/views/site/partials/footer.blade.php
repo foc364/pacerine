@@ -25,13 +25,13 @@
 			    		
     				    <form method="post" action="{{ Request::route('site-requests') }}" id="form_contact">
 							<div class="form-group has-feedback">
-								<label class="sr-only" for="name2">@lang('text.name')</label>
-								<input type="text" class="form-control" id="name2" placeholder="@lang('text.name')" name="name2" required>
+								<label class="sr-only" for="name">@lang('text.name')</label>
+								<input type="text" class="form-control" id="name" placeholder="@lang('text.name')" name="name" required>
 								<i class="fa fa-user form-control-feedback"></i>
 							</div>
 							<div class="form-group has-feedback">
-								<label class="sr-only" for="email2">E-mail</label>
-								<input type="email" class="form-control" id="email2" placeholder="E-mail" name="email2" required>
+								<label class="sr-only" for="email">E-mail</label>
+								<input type="email" class="form-control" id="email" placeholder="E-mail" name="email" required>
 								<i class="fa fa-envelope form-control-feedback"></i>
 							</div>
 							<div class="form-group has-feedback">

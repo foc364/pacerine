@@ -86,7 +86,6 @@
 $(document).ready(function(){
   
   $('#form_contact').submit(function( event ) {
-  	alert(1);
     var parameters = {
       action: 'sendEmail',
       form: $('#form_contact').serializeArray()
