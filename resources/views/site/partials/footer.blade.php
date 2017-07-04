@@ -8,11 +8,11 @@
 			<div class="row">
 				<div class="col-sm-6">
 					<div class="footer-content">
-						<p class="large">Atendimento de segunda a sexta feira, das 9 às 18h.</p>
+						<p class="large"><?php print $text->schedule;?></p>
 						<ul class="list-icons">
-							<li><i class="fa fa-phone pr-10"></i> 55 11 99184 2993</li>
-							<li><i class="fa fa-phone pr-10"></i> 55 11 5062 5842  </li>
-							<li><i class="fa fa-envelope-o pr-10"></i> bruno@pacerini.pe.hu</li>
+							<li><i class="fa fa-phone pr-10"></i> <?php print $contact->phone;?></li>
+							<li><i class="fa fa-phone pr-10"></i> <?php print $contact->phone_2;?>  </li>
+							<li><i class="fa fa-envelope-o pr-10"></i> <?php print $contact->email;?></li>
 						</ul>
 					</div>
 				</div>

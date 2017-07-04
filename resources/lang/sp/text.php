@@ -1,26 +1,26 @@
 <?php
 
 return [
-	'about' => 'About',
-	'services' => 'Services',
-	'contact' => 'Contact',
-	'projects' => 'Projects',
+	'about' => 'Sobre',
+	'services' => 'Servicios',
+	'contact' => 'Contacto',
+	'projects' => 'Proyectos',
 
-	'role' => 'Architect and Urbanist',
+	'role' => 'Architecto y Urbanista',
 
-	'project_title' =>'Some of the work done.',
+	'project_title' =>'Algunos de nuestros trabajos.',
 
-	'bank_agencies' =>'Bank Agencies',
-	'offices' =>'Offices',
-	'project_residential' =>'Project Residential',
-	'project_3d' =>'Projects 3D',
-	'project_technical' =>'Technical Projects',
+	'bank_agencies' =>'Agencias Bancárias',
+	'offices' =>'Oficina',
+	'project_residential' =>'Proyectos Residenciales',
+	'project_3d' =>'Proyectos 3D',
+	'project_technical' =>'Proyectos Técnicos',
 
-	'our' =>'Our',
-	'clients' =>'Clients',
+	'our' =>'Nuestros',
+	'clients' =>'Clientes',
 
-	'name' =>'Name',
-	'message' =>'Message',
-	'send' =>'Send',
-	'close' =>'Close',
+	'name' =>'Nombre',
+	'message' =>'Mensaje',
+	'send' =>'Enviar',
+	'close' =>'Cerrar',
 ];

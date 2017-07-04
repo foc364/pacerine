@@ -1,5 +1,8 @@
 <?php
 use Illuminate\Http\Request;
+use Pacerini\Models\TextPortuguese;
+use Pacerini\Models\TextEnglish;
+use Pacerini\Models\Contact;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,7 +25,8 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'middleware' => 'auth
     Route::resource('convenios', 'HealthInsurancesController');
     Route::resource('agendamentos', 'SchedulesController');
     Route::resource('configuracoes', 'ConfigsController');
-    Route::resource('configuracoes-quem-somos', 'ConfigsAboutController');
+    Route::resource('texto-ingles', 'TextEnglishController');
+    Route::resource('texto-portugues', 'TextPortugueseController');
     Route::resource('configuracoes-orientacao', 'ConfigsOrientationController');
     Route::resource('configuracoes-contato', 'ConfigsContactController');
 
@@ -57,5 +61,24 @@ Route::post('site-requests', function (Request $request) {
 
 Route::get('/{language?}', function ($language = 'pt') {
 	App::setLocale($language);
-    return view('site.index')->with('language', $language);
+    $contact = (new Contact)->find(1);
+
+    switch ($language) {
+        case 'pt':
+            $text = (new TextPortuguese)->find(1);
+            break;
+        
+        case 'en':
+            $text = (new TextEnglish)->find(1);
+            break;
+
+        default:
+            $text = (new TextPortuguese)->find(1);
+            break;
+    }
+
+    return view('site.index')
+        ->with('language', $language)
+        ->with('text', $text)
+        ->with('contact', $contact);
 });

@@ -1,10 +1,10 @@
 <?php
 
-namespace Larashop\Models;
+namespace Pacerini\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class HealthInsurance extends Model
+class Contact extends Model
 {
     /**
      * The attributes that are mass assignable.
@@ -12,7 +12,8 @@ class HealthInsurance extends Model
      * @var array
      */
     protected $fillable = [
-        'active',
-        'name',
+        'phone',
+        'phone_2',
+        'email',
     ];
 }

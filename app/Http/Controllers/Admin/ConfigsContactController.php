@@ -5,7 +5,7 @@ namespace Pacerini\Http\Controllers\admin;
 use Illuminate\Http\Request;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Pacerini\Http\Controllers\Controller;
-use Pacerini\Models\Config;
+use Pacerini\Models\Contact;
 
 class ConfigsContactController extends Controller
 {
@@ -19,11 +19,11 @@ class ConfigsContactController extends Controller
     {
         try
         {
-            $config = Config::findOrFail($id);
+            $contact = Contact::findOrFail($id);
 
             $params = [
                 'title' => 'Configurações',
-                'config' => $config,
+                'contact' => $contact,
             ];
 
             return view('admin.configsContact.configsContact_edit')->with($params);
@@ -48,10 +48,12 @@ class ConfigsContactController extends Controller
     {
         try
         {
-            $config = Config::findOrFail($id);
+            $contact = Contact::findOrFail($id);
           
-            $config->contact_email = $request->input('contact_email');
-            $config->save();
+            $contact->email = $request->input('email');
+            $contact->phone = $request->input('phone');
+            $contact->phone_2 = $request->input('phone_2');
+            $contact->save();
 
             return redirect()->route('configuracoes-contato.edit', ['id' => 1])->with('success', "Configurações foram alteradas com sucesso.");
         }
