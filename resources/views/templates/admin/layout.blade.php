@@ -79,6 +79,7 @@
                                         <li><a href="{{route('configuracoes-contato.edit', ['id' => 1])}}">Contato</a></li>
                                         <li><a href="{{route('texto-portugues.edit', ['id' => 1])}}">Texto em Português</a></li>
                                         <li><a href="{{route('texto-ingles.edit', ['id' => 1])}}">Texto em Inglês</a></li>
+                                        <li><a href="{{route('texto-espanhol.edit', ['id' => 1])}}">Texto em Espanhol</a></li>
                                        
                                     </ul>
                                 </li>

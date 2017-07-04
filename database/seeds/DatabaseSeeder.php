@@ -4,6 +4,7 @@ use Illuminate\Database\Seeder;
 use Pacerini\Models\Contact;
 use Pacerini\Models\TextEnglish;
 use Pacerini\Models\TextPortuguese;
+use Pacerini\Models\TextSpanish;
 use Pacerini\Models\User;
 
 class DatabaseSeeder extends Seeder
@@ -18,6 +19,7 @@ class DatabaseSeeder extends Seeder
         DB::table('contacts')->truncate();
         DB::table('texts_english')->truncate();
         DB::table('texts_portuguese')->truncate();
+        DB::table('texts_spanish')->truncate();
         DB::table('users')->truncate();
 
 
@@ -50,7 +52,8 @@ I am looking to gain more practical and theoretical experience within this secto
     <p>
     I have experience gained both at University as well as externally in developing and implementing small, medium and large scale construction designs relating to housing, hotels, banks, commercial and institutional buildings (as well as other related projects).
 
- 
+ </p>
+ <p>
 I have extensive experience using the following graphic design software; Autocad 2D & 3D, Photoshop, 3D Studio Max, Sketchup, Revit and Microsoft Office Applications.I have been lucky enough to work alongside some seasoned professionals whilst completing projects for bank agencies like Caixa Econômica Federal, Santander, Accor Hotels, The Heritage Foundation of the Energy and Sanitation of Sao Paulo; which consists of Sabesp, CESP, Electropaulo and Comgas, companies that supply energy for almost whole state of Sao Paulo. This experience coupled with my knowledge of design and implementation has given me a good all round understanding of how to design and more importantly, deliver; successful , creative and innovative projects.
     </p>';
 
@@ -169,6 +172,72 @@ Proposta de layout (Ante projeto) e algumas imagens em 3D, condicionadas aos des
 
 
     $texts_portuguese->save();
+
+
+
+    $texts_spanish = new TextSpanish;
+
+        $texts_spanish->about = '<p>
+        Yo, Bruno Pacerini Moreno, graduado con honores en Arquitectura y Urbanismo por la Universidad Presbiteriana Mackenzie, y pos graduado en Tecnología de la edificación por la Universidad Politécnica Catalunya, durante toda la carrera universitaria y como experiencia práctica, he realizado el desarrollo y ejecución de proyectos relacionados con la construcción civil de pequeño, mediano y gran porte, que incluyen viviendas, hoteles, agencias bancarias, proyectos comerciales y institucionales entre otros. Todos con la ayuda de instrumentos de representación gráfica tales como Autocad 2D, 3D, Photoshop, 3D Studio, Revit, Sketchup, aplicaciones con Microsoft Office en general y demás. 
+        </p>';
+
+        $texts_spanish->about_li = 'Graduação Universidade Presbiteriana Mackenzie';
+        $texts_spanish->about_li_2 = 'Pós-graduação pela Universitat Politécnica de la Catalunya';
+        $texts_spanish->about_li_3 = 'Inglês Fluente';
+
+    $texts_spanish->about_experience = '<h2>Experiências Profissionais</h2>
+    <p>
+   Estos trabajos se llevaron a cabo gracias a las oportunidades profesionales que he tenido con Unibaco, Caixa Económica Federal, la cadena de hoteles Accor, la Fundación del Patrimonio Histórico de la Energía y Saneamiento en São Paulo qué cubre Sabesp, CESP, Eletropaulo, Comgas, algunas oficinas de arquitectura y clientes particulares. Siempre disené y supervise la ejecución de los proyectos lo cual me proporcionó un contacto directo con toda la infraestructura básica existente en un ambiente que tuvo como objetivo satisfacer una gran demanda. y necessidades del cliente.
+    </p>
+   <p>
+    Con un contratista independiente finalice la reconstrucción y ampliación de algunas residencias. Refundí, en colaboración con ingenieros, todos los sistemas estructurales, hidráulicos, desagüe, electricidad, tabiquería, colocación de parquet , recubrimiento y acabado de las viviendas. También he ejecutado muchos proyectos en agencias bancarias y participé de proyectos comerciales y de oficinas. 
+    </p>';
+
+    $texts_spanish->about_conclusion ='<h2>Conclusão</h2>
+    <p>
+   Por último, tengo como meta aumentar mi conocimiento en construcción, tanto en el ámbito teórico con mas cursos de cualificacion, como experiencias prácticas en la supervisión y organización de edificaciones. Mi ambición es ser cada vez más competente en lograr el diseño y la aplicación en un buen proyecto arquitectónico. 
+    </p>';
+
+    $texts_spanish->service_1 = '<h4 class="media-heading">Preparación de propuestas</h4>
+
+<p>
+La realizacion de propuestas (Ante proyecto) y algunas imágenes en 3D, condicionadas al deseo del cliente y la viabilidad técnica del arquitecto responsable.
+</p>';
+
+    $texts_spanish->service_2 = '<h4 class="media-heading">Estudio de la propiedad o del terreno existente</h4>
+            <p>
+           Inspección física de la propiedad existente, y se transcribe al ordenador con las medidas en planta, secciones y alzados necesarios para la realización de la propuesta de reforma o de nuevas plantas. La encuesta se llevará a archivo fotográfico.
+            </p>';
+
+     $texts_spanish->service_3 = '<h4 class="media-heading">Informe técnico</h4>
+            <p>
+            Informe técnico administrativo que contiene los datos de propiedades, situación actual, que la propuesta de la unidad quede expuesta a la estimación de los aspectos de costes de la nueva legislación sobre propiedad y su viabilidad técnica.
+            </p>';
+
+     $texts_spanish->service_4 = ' <h4 class="media-heading">Proyecto para la ejecución </h4>
+            <p>
+           Proyecto ejecutivo de arquitectura, aire acondicionado, eléctrico y de estructura, para la ejecución en el campo.
+            </p>';
+
+     $texts_spanish->service_5 = '<h4 class="media-heading">Tabla de coste</h4>
+            <p>
+            Tabla de coste estimado, teniendo en cuenta lo que se gastará en el proyecto arquitectonico, aire acondicionado, eléctrico y estrutura. El cronograma deberá ser discutido con el responsable de la construcion.
+            </p>';
+
+    $texts_spanish->service_6 = '<h4 class="media-heading">Visitas em obra</h4>
+            <p>
+            Visitas semanales al sitio en que se está trabajando para ver si la construcción sigue el calendario previsto y lo estipulado en el proyecto ejecutivo. El cliente obtendrá un informe de trabajo que contiene un archivo fotográfico de cada visita.
+            </p>';
+
+     $texts_spanish->service_7 = ' <h4 class="media-heading">Legalización de la propiedad</h4>
+            <p>
+            Visitas semanales a la correspondiente sub-prefectura, con el objetivo de legalizar la propiedad en su ciudad.
+            </p>';
+
+    $texts_spanish->schedule = 'Atención al cliente: de lunes hasta viernes, de las 9:00-18:00.';
+
+
+    $texts_spanish->save();
 
     }
 }

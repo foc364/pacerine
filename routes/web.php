@@ -2,6 +2,7 @@
 use Illuminate\Http\Request;
 use Pacerini\Models\TextPortuguese;
 use Pacerini\Models\TextEnglish;
+use Pacerini\Models\TextSpanish;
 use Pacerini\Models\Contact;
 
 /*
@@ -21,13 +22,9 @@ use Pacerini\Models\Contact;
 /////////////////**ADMIN**//////////////////////
 Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'middleware' => 'auth'], function () {
     Route::resource('usuarios', 'UsersController');
-    Route::resource('consultorios', 'PlacesController');
-    Route::resource('convenios', 'HealthInsurancesController');
-    Route::resource('agendamentos', 'SchedulesController');
-    Route::resource('configuracoes', 'ConfigsController');
     Route::resource('texto-ingles', 'TextEnglishController');
     Route::resource('texto-portugues', 'TextPortugueseController');
-    Route::resource('configuracoes-orientacao', 'ConfigsOrientationController');
+    Route::resource('texto-espanhol', 'TextSpanishController');
     Route::resource('configuracoes-contato', 'ConfigsContactController');
 
     Route::get('home', function () {
@@ -70,6 +67,10 @@ Route::get('/{language?}', function ($language = 'pt') {
         
         case 'en':
             $text = (new TextEnglish)->find(1);
+            break;
+
+        case 'sp':
+            $text = (new TextSpanish)->find(1);
             break;
 
         default:
