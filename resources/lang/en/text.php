@@ -6,7 +6,7 @@ return [
 	'contact' => 'Contact',
 	'projects' => 'Projects',
 
-	'role' => 'Architect and Urbanist',
+	'role' => 'Architect and Urban Planner',
 
 	'project_title' =>'Some of the work done.',
 

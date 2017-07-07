@@ -10,11 +10,12 @@
             <div class="clients_brand">
               <!-- Start clients brand slider -->
              <ul class="clb_nav wow flipInX">
-               <li><img src="resources/images/caixa.png" alt="brand-img"></li>
+               <li ><img src="resources/images/caixa.png" alt="brand-img"></li>
                <li><img src="resources/images/bb.png" alt="brand-img"></li>
                <li><img src="resources/images/teste2.jpg" alt="brand-img"></li>
                <li><img src="resources/images/accor-hotels.png" alt="brand-img"></li>
                <li><img src="resources/images/sabesp.png" alt="brand-img"></li>
+               <li ><img style="width: 210px" src="resources/images/raw.png" alt="brand-img"></li>
 
 
              </ul>
