@@ -1,9 +1,9 @@
 <!-- portfolio items start -->
               @for ($i=1 ; $i <= 12 ; $i++)
               <div class="col-sm-6 col-md-3 isotope-item project-3d">
-                <div class="image-box">
+                <div class="image-box img_size">
                   <div class="overlay-container">
-                    <img src="resources/images/project-3d/3d{{ str_pad($i, 2, '0', STR_PAD_LEFT)  }}.jpg" alt="img">
+                    <img class="img_size" src="resources/images/project-3d/3d{{ str_pad($i, 2, '0', STR_PAD_LEFT)  }}.jpg" alt="img">
                     <a class="overlay" data-toggle="modal" data-target="#project-3d-{{ $i }}">
                       <i class="fa fa-search-plus"></i>
                       <span>@lang('text.project_3d')</span>

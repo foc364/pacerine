@@ -1,9 +1,9 @@
 <!-- portfolio items start -->
               @for ($i=2 ; $i <= 9 ; $i++)
               <div class="col-sm-6 col-md-3 isotope-item bank-agencies">
-                <div class="image-box">
+                <div  class="image-box img_size">
                   <div class="overlay-container">
-                    <img src="resources/images/bank-agencies/ag{{ str_pad($i, 2, '0', STR_PAD_LEFT)  }}.jpg" alt="img">
+                    <img class="img_size" src="resources/images/bank-agencies/ag{{ str_pad($i, 2, '0', STR_PAD_LEFT)  }}.jpg" alt="img">
                     <a class="overlay" data-toggle="modal" data-target="#bank-agencies-{{ $i }}">
                       <i class="fa fa-search-plus"></i>
                       <span>@lang('text.bank_agencies')</span>
