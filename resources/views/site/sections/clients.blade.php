@@ -16,6 +16,7 @@
                <li><img src="resources/images/accor-hotels.png" alt="brand-img"></li>
                <li><img src="resources/images/sabesp.png" alt="brand-img"></li>
                <li ><img style="width: 210px" src="resources/images/raw.png" alt="brand-img"></li>
+               <li ><img style="width: 150px" src="resources/images/fox.png" alt="brand-img"></li>
 
 
              </ul>
