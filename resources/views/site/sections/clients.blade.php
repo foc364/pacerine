@@ -17,6 +17,9 @@
                <li><img src="resources/images/sabesp.png" alt="brand-img"></li>
                <li ><img style="width: 210px" src="resources/images/raw.png" alt="brand-img"></li>
                <li ><img style="width: 150px" src="resources/images/fox.png" alt="brand-img"></li>
+               <li ><img style="width: 190px" src="resources/images/cliente.jpg" alt="brand-img"></li>
+               <li ><img style="width: 170px" src="resources/images/o2.jpg" alt="brand-img"></li>
+               <li ><img style="width: 130px" src="resources/images/fundation.jpg" alt="brand-img"></li>
 
 
              </ul>
